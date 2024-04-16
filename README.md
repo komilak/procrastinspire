@@ -2,7 +2,7 @@
 What I have so far...
 <div>
     <a href="https://www.loom.com/share/333ce810a077455bbaa439b69709948c">
-      <p>Quick Tab View - Watch Video</p>
+      <p>Quick Tab View - Watch Video - please click through, loom not working rn</p>
     </a>
     <a href="https://www.loom.com/share/333ce810a077455bbaa439b69709948c">
       <img style="max-width:300px;" src="null">
