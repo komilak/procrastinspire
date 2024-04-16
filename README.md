@@ -14,19 +14,16 @@
 Allows you the buffer time of procrastination, with the good intentions of self affirmation and infinite scroll content to inspire your productivity.
 
 ### App Evaluation
-
-[Evaluation of your app across the following attributes]
-- **Category:**
 - **Mobile:**
-- Phones are most people's instinctive procrastination tool, as it's the easiest way to get the next hit of dopamine.
+  Phones are most people's instinctive procrastination tool, as it's the easiest way to get the next hit of dopamine.
 - **Story:**
-- Allows you the buffer time of procrastination, with the good intentions of self affirmation to inspire your productivity.
+  Allows you the buffer time of procrastination, with the good intentions of self affirmation to inspire your productivity.
 - **Market:**
-- Anyone with procrastination issues that want to self improve.
+  Anyone with procrastination issues that want to self improve.
 - **Habit:**
-- Using the idea of an atomic habit, we use existing triggers and habit routines to create a more positive outcome.
+  Using the idea of an atomic habit, we use existing triggers and habit routines to create a more positive outcome.
 - **Scope:**
-- I will use an API for the image calling so most of the work would be creating good UI/UX and infrastructure for the content.
+  I will use an API for the image calling so most of the work would be creating good UI/UX and infrastructure for the content.
 
 ## Product Spec
 
