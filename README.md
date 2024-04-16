@@ -27,49 +27,44 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 
 ## Product Spec
 
-### 1. User Stories (Required and Optional)
+### 1. User Stories 
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* I set my routines in the Routine tab, so that anytime I open the app, the Inspire screen autopopulates with what I usually want to see.
+* I put in my intentions on the intention tab, and am able to get inspired from related images and posts from the Inspire tab
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* I get rewards thrown sporadically throughout the INspire screen to encourage exploration.
+
 
 ### 2. Screen Archetypes
 
-- [ ] [list first screen here]
-* [list associated required story here]
-* ...
-list second screen here]
-* [list associated required story here]
-* ...
+- [ ] Routines
+* I set my routines in the Routine tab, so that anytime I open the app, the Inspire screen autopopulates with what I usually want to see.
+- [ ] Intentions
+- [ ] Inspire
+* I put in my intentions on the intention tab, and am able to get inspired from related images and posts from the Inspire tab
+
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+- [ ] * Intentions
+- [ ] * Inspire
+- [ ] * Routines
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [list first screen here]
-* [list screen navigation here]
-* ...
-- [ ] [list second screen here]
-* [list screen navigation here]
-* ...
+- [ ] Intentions
+* Once an intention is selected, send to api and nav to Inspire screen with api output of relevant topic
+
 
 ## Wireframes
 <img width="336" alt="Screenshot 2024-04-15 at 8 49 43 PM" src="https://github.com/komilak/procrastinspire/assets/27926984/c9cb03bc-33b1-487d-a1e7-3c063dc42967">
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 
 ## Schema 
