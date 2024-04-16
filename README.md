@@ -66,6 +66,7 @@ list second screen here]
 * ...
 
 ## Wireframes
+<img width="336" alt="Screenshot 2024-04-15 at 8 49 43 PM" src="https://github.com/komilak/procrastinspire/assets/27926984/c9cb03bc-33b1-487d-a1e7-3c063dc42967">
 
 [Add picture of your hand sketched wireframes in this section]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
