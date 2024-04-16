@@ -1,4 +1,13 @@
 # Procrastinspire
+What I have so far...
+<div>
+    <a href="https://www.loom.com/share/333ce810a077455bbaa439b69709948c">
+      <p>Quick Tab View - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/333ce810a077455bbaa439b69709948c">
+      <img style="max-width:300px;" src="null">
+    </a>
+  </div>
 
 ## Table of Contents
 
@@ -52,9 +61,9 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 
 **Tab Navigation** (Tab to Screen)
 
-- [ ] * Intentions
-- [ ] * Inspire
-- [ ] * Routines
+- [x] * Intentions
+- [x] * Inspire
+- [x] * Routines
 
 **Flow Navigation** (Screen to Screen)
 
