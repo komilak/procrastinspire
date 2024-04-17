@@ -8,6 +8,12 @@ What I have so far...
       <img style="max-width:300px;" src="null">
     </a>
   </div>
+  
+## Progress so far:
+App has the main three screens so far, with table cells set up for the scroll view to be autofilled.
+I'm still figuring out which API I'd like to use for the images - unsplash, imgur, google images, etc.
+
+
 
 ## Table of Contents
 
@@ -38,7 +44,7 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 
 ### 1. User Stories 
 
-**Required Must-have Stories**
+**Required Must-have Stories / Features**
 - [x] User is able to switch between Inspire, Routines, and Intentions
 - [ ] User is able to select goal on Intentions tab
 - [ ] User can scroll through images on Inspire tab
@@ -46,9 +52,7 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 - [ ] User can set Morning preference on Routine tab
 - [ ] User can set Afternoon preference on Routine tab
 - [ ] User can set Evening preference on Routine tab
-- [ ] Morning preference on Routine tab auto updates Inspire tab
-- [ ] Afternoon preference on Routine tab auto updates Inspire tab
-- [ ] Evening preference on Routine tab auto updates Inspire tab
+
 
 
 
@@ -56,7 +60,9 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 * I put in my intentions on the intention tab, and am able to get inspired from related images and posts from the Inspire tab
 
 **Optional Nice-to-have Stories**
-
+- [ ] Morning preference on Routine tab auto updates Inspire tab
+- [ ] Afternoon preference on Routine tab auto updates Inspire tab
+- [ ] Evening preference on Routine tab auto updates Inspire tab
 * I get rewards thrown sporadically throughout the INspire screen to encourage exploration.
 
 
