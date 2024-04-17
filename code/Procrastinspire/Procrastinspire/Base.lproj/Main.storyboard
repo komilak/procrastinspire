@@ -65,8 +65,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="0f9-W9-6V9" kind="relationship" relationship="viewControllers" id="fDn-ke-njl"/>
-                        <segue destination="itp-Or-Ije" kind="relationship" relationship="viewControllers" id="xOV-Yx-Rhs"/>
                         <segue destination="pER-gc-hPu" kind="relationship" relationship="viewControllers" id="TtX-od-TVH"/>
+                        <segue destination="itp-Or-Ije" kind="relationship" relationship="viewControllers" id="xOV-Yx-Rhs"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y6f-CX-prp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -80,6 +80,15 @@
                     <view key="view" contentMode="scaleToFill" id="7B1-Qw-5N4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ROUTINES PAGE WOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clj-WK-ovH">
+                                <rect key="frame" x="109" y="229" width="174" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="hC8-9r-wWH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -96,6 +105,15 @@
                     <view key="view" contentMode="scaleToFill" id="iqv-9u-Ybs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ITS INSPIRE PAGE WOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bE-49-WVj">
+                                <rect key="frame" x="149" y="265" width="183" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="qcY-Zf-y4d"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
