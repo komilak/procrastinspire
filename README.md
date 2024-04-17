@@ -39,16 +39,16 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 ### 1. User Stories 
 
 **Required Must-have Stories**
-[x] User is able to switch between Inspire, Routines, and Intentions
-[ ] User is able to select goal on Intentions tab
-[ ] User can scroll through images on Inspire tab
-[ ] Intention selection updates and transitions to Inspire tab
-[ ] User can set Morning preference on Routine tab
-[ ] User can set Afternoon preference on Routine tab
-[ ] User can set Evening preference on Routine tab
-[ ] Morning preference on Routine tab auto updates Inspire tab
-[ ] Afternoon preference on Routine tab auto updates Inspire tab
-[ ] Evening preference on Routine tab auto updates Inspire tab
+- [x] User is able to switch between Inspire, Routines, and Intentions
+- [ ] User is able to select goal on Intentions tab
+- [ ] User can scroll through images on Inspire tab
+- [ ] Intention selection updates and transitions to Inspire tab
+- [ ] User can set Morning preference on Routine tab
+- [ ] User can set Afternoon preference on Routine tab
+- [ ] User can set Evening preference on Routine tab
+- [ ] Morning preference on Routine tab auto updates Inspire tab
+- [ ] Afternoon preference on Routine tab auto updates Inspire tab
+- [ ] Evening preference on Routine tab auto updates Inspire tab
 
 
 
