@@ -9,35 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Get Inspired-->
-        <scene sceneID="2Vu-dX-AAo">
-            <objects>
-                <tableViewController id="bHw-Fx-wPd" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="cO9-n4-a1M">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="R7r-h0-Pmd">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="R7r-h0-Pmd" id="u4X-Yb-woT">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="bHw-Fx-wPd" id="hiw-vS-K9u"/>
-                            <outlet property="delegate" destination="bHw-Fx-wPd" id="4XO-jO-HGn"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Get Inspired" id="NRA-lf-fD1"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NxO-iq-Qvk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="795" y="-9"/>
-        </scene>
         <!--Inspire-->
         <scene sceneID="yJ9-KW-Pvf">
             <objects>
@@ -48,12 +19,57 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="bHw-Fx-wPd" kind="relationship" relationship="rootViewController" id="d6s-yb-8FJ"/>
+                        <segue destination="SCO-t6-6Ii" kind="relationship" relationship="rootViewController" id="8jK-kT-slL"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f6M-0F-FLI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-324.4274809160305" y="-9.1549295774647899"/>
+        </scene>
+        <!--Inspire View Controller-->
+        <scene sceneID="NdR-Hb-FXE">
+            <objects>
+                <viewController id="SCO-t6-6Ii" customClass="InspireViewController" customModule="Procrastinspire" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UDu-7E-pGd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="250" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Tj-AF-LSJ">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="193" id="Hzq-6t-dbu" customClass="PostCell" customModule="Procrastinspire" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="193"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hzq-6t-dbu" id="YNR-iz-3pR">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="193"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r0C-A4-Js8">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="193"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="postImageView" destination="r0C-A4-Js8" id="Afz-TH-04V"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XlP-tc-zUO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3va-2g-iUd"/>
+                    <connections>
+                        <outlet property="tableView" destination="5Tj-AF-LSJ" id="fVP-od-AAq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMF-gF-4mQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="597.70992366412213" y="-9.1549295774647899"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Czk-tW-17o">
@@ -78,7 +94,7 @@
         <!--My Routines-->
         <scene sceneID="6qU-lM-EL4">
             <objects>
-                <viewController id="I6R-Lu-Kqc" sceneMemberID="viewController">
+                <viewController id="I6R-Lu-Kqc" customClass="RoutineViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7B1-Qw-5N4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,7 +201,7 @@
         <!--I Want To...-->
         <scene sceneID="pKE-30-N0V">
             <objects>
-                <viewController id="1eK-q7-YrN" sceneMemberID="viewController">
+                <viewController id="1eK-q7-YrN" customClass="IntentViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iqv-9u-Ybs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

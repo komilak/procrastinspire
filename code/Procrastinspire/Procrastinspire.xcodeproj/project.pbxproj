@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FA452532BD852EE000E3082 /* InspireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452522BD852EE000E3082 /* InspireViewController.swift */; };
+		4FA452572BD855D1000E3082 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452562BD855D1000E3082 /* PostCell.swift */; };
+		4FA452592BD859EC000E3082 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452582BD859EC000E3082 /* Post.swift */; };
 		4FEFACD02BCE31FA000EB7DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFACCF2BCE31FA000EB7DF /* AppDelegate.swift */; };
 		4FEFACD22BCE31FA000EB7DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFACD12BCE31FA000EB7DF /* SceneDelegate.swift */; };
 		4FEFACD42BCE31FA000EB7DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFACD32BCE31FA000EB7DF /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FA452522BD852EE000E3082 /* InspireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspireViewController.swift; sourceTree = "<group>"; };
+		4FA452562BD855D1000E3082 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		4FA452582BD859EC000E3082 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		4FEFACCC2BCE31FA000EB7DF /* Procrastinspire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procrastinspire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEFACCF2BCE31FA000EB7DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FEFACD12BCE31FA000EB7DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,10 +62,13 @@
 		4FEFACCE2BCE31FA000EB7DF /* Procrastinspire */ = {
 			isa = PBXGroup;
 			children = (
+				4FA452582BD859EC000E3082 /* Post.swift */,
+				4FA452562BD855D1000E3082 /* PostCell.swift */,
 				4FEFACCF2BCE31FA000EB7DF /* AppDelegate.swift */,
 				4FEFACD12BCE31FA000EB7DF /* SceneDelegate.swift */,
 				4FEFACD32BCE31FA000EB7DF /* ViewController.swift */,
 				4FEFACD52BCE31FA000EB7DF /* Main.storyboard */,
+				4FA452522BD852EE000E3082 /* InspireViewController.swift */,
 				4FEFACD82BCE31FB000EB7DF /* Assets.xcassets */,
 				4FEFACDA2BCE31FB000EB7DF /* LaunchScreen.storyboard */,
 				4FEFACDD2BCE31FB000EB7DF /* Info.plist */,
@@ -141,6 +150,9 @@
 				4FEFACD42BCE31FA000EB7DF /* ViewController.swift in Sources */,
 				4FEFACD02BCE31FA000EB7DF /* AppDelegate.swift in Sources */,
 				4FEFACD22BCE31FA000EB7DF /* SceneDelegate.swift in Sources */,
+				4FA452592BD859EC000E3082 /* Post.swift in Sources */,
+				4FA452532BD852EE000E3082 /* InspireViewController.swift in Sources */,
+				4FA452572BD855D1000E3082 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
