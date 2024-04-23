@@ -47,6 +47,7 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 **Required Must-have Stories / Features**
 - [x] User is able to switch between Inspire, Routines, and Intentions
 - [x] User is able to select goal (choose from diff buttons) on Intentions tab - no api response yet
+- [x] Routine Tab shows options to select from for Morning, Day, and Evening
 - [ ] User can scroll through images on Inspire tab
 - [ ] Intention selection updates and transitions to Inspire tab
 
@@ -99,7 +100,6 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 
 ## Schema 
 
-[This section will be completed in Unit 9]
 
 ### Models
 
