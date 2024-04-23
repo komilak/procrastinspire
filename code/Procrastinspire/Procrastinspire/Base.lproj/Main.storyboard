@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Get Inspired-->
         <scene sceneID="2Vu-dX-AAo">
             <objects>
                 <tableViewController id="bHw-Fx-wPd" sceneMemberID="viewController">
@@ -31,7 +31,7 @@
                             <outlet property="delegate" destination="bHw-Fx-wPd" id="4XO-jO-HGn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="NRA-lf-fD1"/>
+                    <navigationItem key="navigationItem" title="Get Inspired" id="NRA-lf-fD1"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NxO-iq-Qvk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -74,32 +74,23 @@
             </objects>
             <point key="canvasLocation" x="-1251.145038167939" y="-9.1549295774647899"/>
         </scene>
-        <!--View Controller-->
+        <!--My Routines-->
         <scene sceneID="6qU-lM-EL4">
             <objects>
                 <viewController id="I6R-Lu-Kqc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7B1-Qw-5N4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ROUTINES PAGE WOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clj-WK-ovH">
-                                <rect key="frame" x="109" y="229" width="174" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="hC8-9r-wWH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="AGt-f5-7Ho"/>
+                    <navigationItem key="navigationItem" title="My Routines" id="SGS-Pg-fvc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="waP-cC-PKt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="795" y="717"/>
         </scene>
-        <!--View Controller-->
+        <!--I Want To...-->
         <scene sceneID="pKE-30-N0V">
             <objects>
                 <viewController id="1eK-q7-YrN" sceneMemberID="viewController">
@@ -107,14 +98,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I want to ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bE-49-WVj">
-                                <rect key="frame" x="129" y="123" width="135.33333333333337" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Wc9-7O-2N2">
-                                <rect key="frame" x="96.666666666666686" y="186.66666666666663" width="200" height="161.33333333333337"/>
+                                <rect key="frame" x="96.666666666666686" y="178" width="200" height="161.33333333333337"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tba-fg-Cm4">
                                         <rect key="frame" x="17" y="0.0" width="165.66666666666666" height="34.333333333333336"/>
@@ -130,7 +115,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goc-iW-Rva">
-                                        <rect key="frame" x="51.999999999999986" y="84.666666666666657" width="96.000000000000014" height="34.333333333333343"/>
+                                        <rect key="frame" x="51.999999999999986" y="84.666666666666686" width="96.000000000000014" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" image="book" catalog="system" title="Learn">
                                             <color key="baseForegroundColor" red="0.65848112553441718" green="0.32123734149260003" blue="0.84959597131855669" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -138,7 +123,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5S-kY-6g6">
-                                        <rect key="frame" x="48.666666666666679" y="127.00000000000001" width="102.33333333333331" height="34.333333333333329"/>
+                                        <rect key="frame" x="48.666666666666679" y="126.99999999999999" width="102.33333333333331" height="34.333333333333329"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" image="frying.pan" catalog="system" title="Cook">
                                             <color key="baseForegroundColor" red="0.70038659793814428" green="0.45278009687995285" blue="0.083652794291834573" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -155,13 +140,11 @@
                         <viewLayoutGuide key="safeArea" id="qcY-Zf-y4d"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="7bE-49-WVj" firstAttribute="top" secondItem="qcY-Zf-y4d" secondAttribute="top" constant="20" id="2T0-B2-ph6"/>
-                            <constraint firstItem="7bE-49-WVj" firstAttribute="centerX" secondItem="iqv-9u-Ybs" secondAttribute="centerX" id="Bni-Qd-Pld"/>
                             <constraint firstItem="Wc9-7O-2N2" firstAttribute="centerX" secondItem="iqv-9u-Ybs" secondAttribute="centerX" id="UN8-FV-9Hx"/>
-                            <constraint firstItem="Wc9-7O-2N2" firstAttribute="top" secondItem="7bE-49-WVj" secondAttribute="bottom" constant="27.670000000000002" id="c3F-JE-ate"/>
+                            <constraint firstItem="Wc9-7O-2N2" firstAttribute="top" secondItem="qcY-Zf-y4d" secondAttribute="top" constant="75" id="qim-Se-0ey"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="nxL-Fg-reF"/>
+                    <navigationItem key="navigationItem" title="I Want To..." id="53Y-YH-HOE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mrD-z6-gda" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
