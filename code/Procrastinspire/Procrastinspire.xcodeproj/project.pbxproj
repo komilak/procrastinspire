@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F11E7F22BD85F59000F76CB /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7F12BD85F59000F76CB /* Nuke */; };
+		4F11E7F42BD85F59000F76CB /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7F32BD85F59000F76CB /* NukeExtensions */; };
+		4F11E7F62BD85F59000F76CB /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7F52BD85F59000F76CB /* NukeUI */; };
+		4F11E7F82BD85F59000F76CB /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7F72BD85F59000F76CB /* NukeVideo */; };
+		4F11E7FA2BD86311000F76CB /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7F92BD86311000F76CB /* Nuke */; };
+		4F11E7FC2BD86311000F76CB /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7FB2BD86311000F76CB /* NukeExtensions */; };
+		4F11E7FE2BD86311000F76CB /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7FD2BD86311000F76CB /* NukeUI */; };
+		4F11E8002BD86311000F76CB /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7FF2BD86311000F76CB /* NukeVideo */; };
 		4FA452532BD852EE000E3082 /* InspireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452522BD852EE000E3082 /* InspireViewController.swift */; };
 		4FA452572BD855D1000E3082 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452562BD855D1000E3082 /* PostCell.swift */; };
 		4FA452592BD859EC000E3082 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452582BD859EC000E3082 /* Post.swift */; };
@@ -37,6 +45,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F11E7F62BD85F59000F76CB /* NukeUI in Frameworks */,
+				4F11E7FE2BD86311000F76CB /* NukeUI in Frameworks */,
+				4F11E7F22BD85F59000F76CB /* Nuke in Frameworks */,
+				4F11E8002BD86311000F76CB /* NukeVideo in Frameworks */,
+				4F11E7F42BD85F59000F76CB /* NukeExtensions in Frameworks */,
+				4F11E7F82BD85F59000F76CB /* NukeVideo in Frameworks */,
+				4F11E7FA2BD86311000F76CB /* Nuke in Frameworks */,
+				4F11E7FC2BD86311000F76CB /* NukeExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +108,16 @@
 			dependencies = (
 			);
 			name = Procrastinspire;
+			packageProductDependencies = (
+				4F11E7F12BD85F59000F76CB /* Nuke */,
+				4F11E7F32BD85F59000F76CB /* NukeExtensions */,
+				4F11E7F52BD85F59000F76CB /* NukeUI */,
+				4F11E7F72BD85F59000F76CB /* NukeVideo */,
+				4F11E7F92BD86311000F76CB /* Nuke */,
+				4F11E7FB2BD86311000F76CB /* NukeExtensions */,
+				4F11E7FD2BD86311000F76CB /* NukeUI */,
+				4F11E7FF2BD86311000F76CB /* NukeVideo */,
+			);
 			productName = Procrastinspire;
 			productReference = 4FEFACCC2BCE31FA000EB7DF /* Procrastinspire.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +146,9 @@
 				Base,
 			);
 			mainGroup = 4FEFACC32BCE31FA000EB7DF;
+			packageReferences = (
+				4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 4FEFACCD2BCE31FA000EB7DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -375,6 +404,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F11E7F12BD85F59000F76CB /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		4F11E7F32BD85F59000F76CB /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		4F11E7F52BD85F59000F76CB /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		4F11E7F72BD85F59000F76CB /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+		4F11E7F92BD86311000F76CB /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		4F11E7FB2BD86311000F76CB /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		4F11E7FD2BD86311000F76CB /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		4F11E7FF2BD86311000F76CB /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4FEFACC42BCE31FA000EB7DF /* Project object */;
 }

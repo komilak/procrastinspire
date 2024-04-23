@@ -4,15 +4,15 @@
 //
 //  Created by Komila Khamidova on 4/23/24.
 //
-
 import UIKit
-import Nuke
+import NukeExtensions
+
 
 
 class InspireViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows for the table.
-        return 50
+        return posts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -39,7 +39,7 @@ class InspireViewController: UIViewController, UITableViewDataSource {
     //           let imageUrl = URL(string: "https://image.tmdb.org/t/p/w500" + posterPath) {
                 
                 // Use the Nuke library's load image function to (async) fetch and load the image from the image URL.
-                Nuke.loadImage(with: url, into: cell.postImageView)
+                NukeExtensions.loadImage(with: url,  into: cell.postImageView)
             }
             
             // Set the text on the labels
@@ -65,7 +65,7 @@ class InspireViewController: UIViewController, UITableViewDataSource {
     }
     
     func fetchPosts() {
-            let url = URL(string: "https://api.tumblr.com/v2/blog/pitchersandpoets/posts/photo?api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk")!
+            let url = URL(string: "https://api.tumblr.com/v2/blog/juliaxyn/posts/photo?&api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk")!
             let session = URLSession.shared.dataTask(with: url) { data, response, error in
                 if let error = error {
                     print("❌ Error: \(error.localizedDescription)")
