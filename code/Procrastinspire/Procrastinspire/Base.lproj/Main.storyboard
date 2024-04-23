@@ -37,11 +37,11 @@
             </objects>
             <point key="canvasLocation" x="795" y="-9"/>
         </scene>
-        <!--Intentions-->
+        <!--Inspire-->
         <scene sceneID="yJ9-KW-Pvf">
             <objects>
                 <navigationController id="0f9-W9-6V9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Intentions" image="checkmark.bubble" catalog="system" id="bno-fx-5uJ"/>
+                    <tabBarItem key="tabBarItem" title="Inspire" image="cloud" catalog="system" id="bno-fx-5uJ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Wm-Ro-VdH">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -60,12 +60,13 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hHz-W6-hee" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="S3z-VE-EcC">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="0f9-W9-6V9" kind="relationship" relationship="viewControllers" id="fDn-ke-njl"/>
                         <segue destination="pER-gc-hPu" kind="relationship" relationship="viewControllers" id="TtX-od-TVH"/>
+                        <segue destination="0f9-W9-6V9" kind="relationship" relationship="viewControllers" id="fDn-ke-njl"/>
                         <segue destination="itp-Or-Ije" kind="relationship" relationship="viewControllers" id="xOV-Yx-Rhs"/>
                     </connections>
                 </tabBarController>
@@ -106,16 +107,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ITS INSPIRE PAGE WOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bE-49-WVj">
-                                <rect key="frame" x="149" y="265" width="183" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I want to ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bE-49-WVj">
+                                <rect key="frame" x="129" y="123" width="135.33333333333337" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Wc9-7O-2N2">
+                                <rect key="frame" x="96.666666666666686" y="186.66666666666663" width="200" height="161.33333333333337"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tba-fg-Cm4">
+                                        <rect key="frame" x="17" y="0.0" width="165.66666666666666" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" image="deskclock" catalog="system" title="Get Work Done"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icx-sW-oaS">
+                                        <rect key="frame" x="55.666666666666664" y="42.333333333333343" width="88.666666666666686" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" image="zzz" catalog="system" title="Relax">
+                                            <color key="baseForegroundColor" red="0.080442526581507481" green="0.53569990335051554" blue="0.1102603476748563" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseBackgroundColor" red="0.61250500981151745" green="0.95893070069999997" blue="0.55797224739202422" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goc-iW-Rva">
+                                        <rect key="frame" x="51.999999999999986" y="84.666666666666657" width="96.000000000000014" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" image="book" catalog="system" title="Learn">
+                                            <color key="baseForegroundColor" red="0.65848112553441718" green="0.32123734149260003" blue="0.84959597131855669" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseBackgroundColor" red="0.66793839049360471" green="0.31133702631607602" blue="0.95893070069999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5S-kY-6g6">
+                                        <rect key="frame" x="48.666666666666679" y="127.00000000000001" width="102.33333333333331" height="34.333333333333329"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" image="frying.pan" catalog="system" title="Cook">
+                                            <color key="baseForegroundColor" red="0.70038659793814428" green="0.45278009687995285" blue="0.083652794291834573" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseBackgroundColor" red="0.85422036082474229" green="0.65001085251414603" blue="0.36288483127596871" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Ltd-OF-IZu"/>
+                                    <constraint firstItem="goc-iW-Rva" firstAttribute="centerX" secondItem="Wc9-7O-2N2" secondAttribute="centerX" id="fpE-Xj-Ohx"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qcY-Zf-y4d"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7bE-49-WVj" firstAttribute="top" secondItem="qcY-Zf-y4d" secondAttribute="top" constant="20" id="2T0-B2-ph6"/>
+                            <constraint firstItem="7bE-49-WVj" firstAttribute="centerX" secondItem="iqv-9u-Ybs" secondAttribute="centerX" id="Bni-Qd-Pld"/>
+                            <constraint firstItem="Wc9-7O-2N2" firstAttribute="centerX" secondItem="iqv-9u-Ybs" secondAttribute="centerX" id="UN8-FV-9Hx"/>
+                            <constraint firstItem="Wc9-7O-2N2" firstAttribute="top" secondItem="7bE-49-WVj" secondAttribute="bottom" constant="27.670000000000002" id="c3F-JE-ate"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nxL-Fg-reF"/>
                 </viewController>
@@ -142,11 +186,11 @@
             </objects>
             <point key="canvasLocation" x="-324" y="717"/>
         </scene>
-        <!--Inspire-->
+        <!--Intentions-->
         <scene sceneID="VMJ-wt-55x">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pER-gc-hPu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Inspire" image="cloud" catalog="system" id="I0l-JH-nDd"/>
+                    <tabBarItem key="tabBarItem" title="Intentions" image="checkmark.bubble" catalog="system" id="I0l-JH-nDd"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hqP-8S-896">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -163,9 +207,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="book" catalog="system" width="128" height="99"/>
         <image name="checkmark.bubble" catalog="system" width="128" height="110"/>
         <image name="cloud" catalog="system" width="128" height="87"/>
+        <image name="deskclock" catalog="system" width="128" height="125"/>
+        <image name="frying.pan" catalog="system" width="128" height="81"/>
         <image name="person" catalog="system" width="128" height="121"/>
+        <image name="zzz" catalog="system" width="119" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
