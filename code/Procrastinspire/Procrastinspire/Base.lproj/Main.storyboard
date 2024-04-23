@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -81,8 +82,99 @@
                     <view key="view" contentMode="scaleToFill" id="7B1-Qw-5N4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="veU-06-kP3">
+                                <rect key="frame" x="308.33333333333331" y="253" width="36" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="trZ-i1-duu">
+                                        <rect key="frame" x="0.0" y="0.0" width="36" height="30"/>
+                                        <menu key="menu" title="Intention" id="8OW-45-DAM">
+                                            <children>
+                                                <command title="Work" id="LoT-j6-twf"/>
+                                                <command title="Relax" id="ocl-PY-EJP"/>
+                                                <command title="Learn" id="Vil-sz-B1g"/>
+                                                <command title="Cook" id="wrK-JZ-E4e"/>
+                                            </children>
+                                        </menu>
+                                        <state key="normal" title="test"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eSc-lD-Bav">
+                                        <rect key="frame" x="0.0" y="85" width="36" height="30"/>
+                                        <menu key="menu" title="Intention" id="vzM-rb-JfR">
+                                            <children>
+                                                <command title="Work" id="djw-bG-G1e"/>
+                                                <command title="Relax" id="HzG-Im-peH"/>
+                                                <command title="Learn" id="ekk-Uy-45J"/>
+                                                <command title="Cook" id="7mf-Vq-7Yd"/>
+                                            </children>
+                                        </menu>
+                                        <state key="normal" title="test"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fas-0G-gC9">
+                                        <rect key="frame" x="0.0" y="170" width="36" height="30"/>
+                                        <menu key="menu" title="Intention" id="foU-aK-eVn">
+                                            <children>
+                                                <command title="Work" id="N9L-mq-eEn"/>
+                                                <command title="Relax" id="n6R-sL-blq"/>
+                                                <command title="Learn" id="fCF-61-pnh"/>
+                                                <command title="Cook" id="lau-WG-suG"/>
+                                            </children>
+                                        </menu>
+                                        <state key="normal" title="test"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="eSc-lD-Bav" secondAttribute="trailing" constant="15" id="Y0n-nz-ffc"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="6Lc-bb-bLh">
+                                <rect key="frame" x="15" y="253" width="143.33333333333334" height="189"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the morning I..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVM-G3-KGH">
+                                        <rect key="frame" x="0.0" y="0.0" width="143.33333333333334" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the afternoon I..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSK-dl-8O7">
+                                        <rect key="frame" x="0.0" y="84.333333333333314" width="143.33333333333334" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the evening I..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xum-Z5-su8">
+                                        <rect key="frame" x="0.0" y="168.66666666666669" width="143.33333333333334" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="VSK-dl-8O7" firstAttribute="leading" secondItem="6Lc-bb-bLh" secondAttribute="leading" constant="15" id="TZp-OE-wae"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bFc-9h-UoY">
+                                <rect key="frame" x="171.66666666666666" y="124.33333333333333" width="50" height="47.333333333333329"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Bme-Aa-YHB"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="BtJ-R8-3xl"/>
+                                    <constraint firstAttribute="width" constant="50" id="QVo-uI-i8e"/>
+                                    <constraint firstAttribute="height" constant="50" id="gqB-93-eFJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="hC8-9r-wWH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Lc-bb-bLh" firstAttribute="top" secondItem="hC8-9r-wWH" secondAttribute="top" constant="150" id="1Xo-5b-ylO"/>
+                            <constraint firstItem="6Lc-bb-bLh" firstAttribute="leading" secondItem="hC8-9r-wWH" secondAttribute="leading" constant="15" id="E4K-EV-P1G"/>
+                            <constraint firstItem="bFc-9h-UoY" firstAttribute="centerX" secondItem="7B1-Qw-5N4" secondAttribute="centerX" id="FJ6-Qb-qnL"/>
+                            <constraint firstItem="bFc-9h-UoY" firstAttribute="centerX" secondItem="7B1-Qw-5N4" secondAttribute="centerX" id="Hoy-Em-7aq"/>
+                            <constraint firstItem="veU-06-kP3" firstAttribute="top" secondItem="hC8-9r-wWH" secondAttribute="top" constant="150" id="Ntu-Lv-kyb"/>
+                            <constraint firstItem="bFc-9h-UoY" firstAttribute="top" secondItem="hC8-9r-wWH" secondAttribute="top" constant="20" id="gqA-Si-Wu0"/>
+                            <constraint firstItem="bFc-9h-UoY" firstAttribute="top" secondItem="hC8-9r-wWH" secondAttribute="top" constant="20" id="ld3-uc-Bwb"/>
+                            <constraint firstItem="veU-06-kP3" firstAttribute="leading" secondItem="6Lc-bb-bLh" secondAttribute="trailing" constant="150" id="q38-c6-Npn"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="My Routines" id="SGS-Pg-fvc"/>
                 </viewController>
