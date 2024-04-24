@@ -55,11 +55,36 @@ class InspireViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
+    
+    @IBOutlet weak var morningRoutineSelection: UIButton!
+    
+    @IBAction func morningRoutineSelected(_ sender: Any) {
+    }
+    
+//    func setupMorningRoutineSelection() {
+//        let morningRoutineSelectionClosure = { (action: UIAction) in
+//            print("morningRoutineSelection action")
+//        }
+//                
+//        morningRoutineSelection.menu = UIMenu(children: [
+//            UIAction(title: "Work", handler: morningRoutineSelectionClosure),
+//            UIAction(title: "Relax", handler: morningRoutineSelectionClosure),
+//            UIAction(title: "Learn", handler: morningRoutineSelectionClosure),
+//            UIAction(title: "Cook", handler: morningRoutineSelectionClosure)
+//        ])
+//        morningRoutineSelection.showsMenuAsPrimaryAction = true
+//        
+//        print(morningRoutineSelection.menu?.selectedElements.first?.title)
+//    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.dataSource = self
 
+//        setupMorningRoutineSelection()
         // Do any additional setup after loading the view.
         fetchPosts()
     }

@@ -112,7 +112,7 @@
                                                 <command title="Cook" id="wrK-JZ-E4e"/>
                                             </children>
                                         </menu>
-                                        <state key="normal" title="test"/>
+                                        <state key="normal" title="morningRoutineSelection"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eSc-lD-Bav">
                                         <rect key="frame" x="0.0" y="85" width="133" height="30"/>
@@ -124,7 +124,7 @@
                                                 <command title="Cook" id="7mf-Vq-7Yd"/>
                                             </children>
                                         </menu>
-                                        <state key="normal" title="test"/>
+                                        <state key="normal" title="dayRoutineSelection"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fas-0G-gC9">
                                         <rect key="frame" x="0.0" y="170" width="133" height="30"/>
@@ -136,7 +136,7 @@
                                                 <command title="Cook" id="lau-WG-suG"/>
                                             </children>
                                         </menu>
-                                        <state key="normal" title="test"/>
+                                        <state key="normal" title="nightRoutineSelection"/>
                                     </button>
                                 </subviews>
                             </stackView>
