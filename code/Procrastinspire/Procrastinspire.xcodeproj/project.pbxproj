@@ -16,6 +16,7 @@
 		4F11E7FE2BD86311000F76CB /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7FD2BD86311000F76CB /* NukeUI */; };
 		4F11E8002BD86311000F76CB /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7FF2BD86311000F76CB /* NukeVideo */; };
 		4F8B562F2BD8A127005FF873 /* RoutinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B562E2BD8A127005FF873 /* RoutinesViewController.swift */; };
+		4F8B56322BD9AA66005FF873 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 4F8B56312BD9AA66005FF873 /* SwiftSoup */; };
 		4FA452532BD852EE000E3082 /* InspireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452522BD852EE000E3082 /* InspireViewController.swift */; };
 		4FA452572BD855D1000E3082 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452562BD855D1000E3082 /* PostCell.swift */; };
 		4FA452592BD859EC000E3082 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452582BD859EC000E3082 /* Post.swift */; };
@@ -55,6 +56,7 @@
 				4F11E7F82BD85F59000F76CB /* NukeVideo in Frameworks */,
 				4F11E7FA2BD86311000F76CB /* Nuke in Frameworks */,
 				4F11E7FC2BD86311000F76CB /* NukeExtensions in Frameworks */,
+				4F8B56322BD9AA66005FF873 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +122,7 @@
 				4F11E7FB2BD86311000F76CB /* NukeExtensions */,
 				4F11E7FD2BD86311000F76CB /* NukeUI */,
 				4F11E7FF2BD86311000F76CB /* NukeVideo */,
+				4F8B56312BD9AA66005FF873 /* SwiftSoup */,
 			);
 			productName = Procrastinspire;
 			productReference = 4FEFACCC2BCE31FA000EB7DF /* Procrastinspire.app */;
@@ -151,6 +154,7 @@
 			mainGroup = 4FEFACC32BCE31FA000EB7DF;
 			packageReferences = (
 				4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */,
+				4F8B56302BD9AA66005FF873 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 			);
 			productRefGroup = 4FEFACCD2BCE31FA000EB7DF /* Products */;
 			projectDirPath = "";
@@ -418,6 +422,14 @@
 				minimumVersion = 12.5.0;
 			};
 		};
+		4F8B56302BD9AA66005FF873 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -460,6 +472,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4F11E7F02BD85F59000F76CB /* XCRemoteSwiftPackageReference "Nuke" */;
 			productName = NukeVideo;
+		};
+		4F8B56312BD9AA66005FF873 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F8B56302BD9AA66005FF873 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

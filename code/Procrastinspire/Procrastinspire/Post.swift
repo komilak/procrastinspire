@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import SwiftSoup
 
 struct Blog: Decodable {
     let response: Response
@@ -39,3 +40,23 @@ struct PhotoInfo: Decodable {
     // The url for the location of the photo image
     let url: URL
 }
+
+//// Unwrap the optional poster path
+//if let photo = post.photos.first {
+//    let url = photo.originalSize.url
+////let html = "<a href = \"https://mitsui-shopping-park.com/lalaport/koshien/\" target=\"_blank\"> https://mitsui-shopping-park.com/lalaport / koshien / </a>"
+
+
+//func getImagesFromPost() {
+//    do {
+//        let doc: Document = try SwiftSoup.parse(html)
+//        let srcs: Elements = try doc.select("img[src]")
+//        let srcsStringArray: [String?] = srcs.array().map { try? $0.attr("src").description }
+//        // do something with srcsStringArray
+//        
+//    } catch Exception.Error(_, let message) {
+//        print(message)
+//    } catch {
+//        print("error")
+//    }
+//}
