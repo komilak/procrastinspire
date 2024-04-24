@@ -65,9 +65,9 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 * I put in my intentions on the intention tab, and am able to get inspired from related images and posts from the Inspire tab
 
 **Optional Nice-to-have Stories**
-- [ ] User can set Morning preference on Routine tab
-- [ ] User can set Afternoon preference on Routine tab
-- [ ] User can set Evening preference on Routine tab
+- [x] User can set Morning preference on Routine tab
+- [x] User can set Afternoon preference on Routine tab
+- [x] User can set Evening preference on Routine tab
 - [ ] Morning preference on Routine tab auto updates Inspire tab
 - [ ] Afternoon preference on Routine tab auto updates Inspire tab
 - [ ] Evening preference on Routine tab auto updates Inspire tab
