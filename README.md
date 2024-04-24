@@ -1,11 +1,11 @@
 # Procrastinspire
 What I have so far...
 <div>
-    <a href="https://www.loom.com/share/f406cdf36df348bb847298d480041ecb">
-      <p>Week 1 Update - Watch Video</p>
+    <a href="https://www.loom.com/share/58157a1ba1d94b03be77fc0d74fcae29">
+      <p>Week 2 Update - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/f406cdf36df348bb847298d480041ecb">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f406cdf36df348bb847298d480041ecb-with-play.gif">
+    <a href="https://www.loom.com/share/58157a1ba1d94b03be77fc0d74fcae29">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/58157a1ba1d94b03be77fc0d74fcae29-with-play.gif">
     </a>
   </div>
   
