@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
-        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -94,52 +93,11 @@
         <!--My Routines-->
         <scene sceneID="6qU-lM-EL4">
             <objects>
-                <viewController id="I6R-Lu-Kqc" customClass="RoutineViewController" sceneMemberID="viewController">
+                <viewController id="I6R-Lu-Kqc" customClass="RoutinesViewController" customModule="Procrastinspire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7B1-Qw-5N4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="veU-06-kP3">
-                                <rect key="frame" x="250" y="253" width="133" height="200"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="trZ-i1-duu">
-                                        <rect key="frame" x="0.0" y="0.0" width="133" height="30"/>
-                                        <menu key="menu" title="Intention" id="8OW-45-DAM">
-                                            <children>
-                                                <command title="Work" id="LoT-j6-twf"/>
-                                                <command title="Relax" id="ocl-PY-EJP"/>
-                                                <command title="Learn" id="Vil-sz-B1g"/>
-                                                <command title="Cook" id="wrK-JZ-E4e"/>
-                                            </children>
-                                        </menu>
-                                        <state key="normal" title="morningRoutineSelection"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eSc-lD-Bav">
-                                        <rect key="frame" x="0.0" y="85" width="133" height="30"/>
-                                        <menu key="menu" title="Intention" id="vzM-rb-JfR">
-                                            <children>
-                                                <command title="Learn" id="ekk-Uy-45J"/>
-                                                <command title="Work" id="djw-bG-G1e"/>
-                                                <command title="Relax" id="HzG-Im-peH"/>
-                                                <command title="Cook" id="7mf-Vq-7Yd"/>
-                                            </children>
-                                        </menu>
-                                        <state key="normal" title="dayRoutineSelection"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fas-0G-gC9">
-                                        <rect key="frame" x="0.0" y="170" width="133" height="30"/>
-                                        <menu key="menu" title="Intention" id="foU-aK-eVn">
-                                            <children>
-                                                <command title="Relax" id="n6R-sL-blq"/>
-                                                <command title="Work" id="N9L-mq-eEn"/>
-                                                <command title="Learn" id="fCF-61-pnh"/>
-                                                <command title="Cook" id="lau-WG-suG"/>
-                                            </children>
-                                        </menu>
-                                        <state key="normal" title="nightRoutineSelection"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="6Lc-bb-bLh">
                                 <rect key="frame" x="15" y="253" width="132.33333333333334" height="189"/>
                                 <subviews>
@@ -173,6 +131,12 @@
                                     <constraint firstAttribute="height" constant="50" id="gqB-93-eFJ"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6x-l8-b3j">
+                                <rect key="frame" x="302" y="253" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hC8-9r-wWH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -180,13 +144,13 @@
                             <constraint firstItem="6Lc-bb-bLh" firstAttribute="top" secondItem="hC8-9r-wWH" secondAttribute="top" constant="150" id="1Xo-5b-ylO"/>
                             <constraint firstItem="6Lc-bb-bLh" firstAttribute="leading" secondItem="hC8-9r-wWH" secondAttribute="leading" constant="15" id="E4K-EV-P1G"/>
                             <constraint firstItem="bFc-9h-UoY" firstAttribute="centerX" secondItem="7B1-Qw-5N4" secondAttribute="centerX" id="FJ6-Qb-qnL"/>
-                            <constraint firstItem="veU-06-kP3" firstAttribute="top" secondItem="hC8-9r-wWH" secondAttribute="top" constant="150" id="Ntu-Lv-kyb"/>
-                            <constraint firstItem="veU-06-kP3" firstAttribute="centerX" secondItem="7B1-Qw-5N4" secondAttribute="centerX" constant="120" id="bHS-gf-ahn"/>
                             <constraint firstItem="bFc-9h-UoY" firstAttribute="top" secondItem="hC8-9r-wWH" secondAttribute="top" constant="20" id="gqA-Si-Wu0"/>
-                            <constraint firstItem="hC8-9r-wWH" firstAttribute="trailing" secondItem="veU-06-kP3" secondAttribute="trailing" constant="10" id="oPj-yc-con"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="My Routines" id="SGS-Pg-fvc"/>
+                    <connections>
+                        <outlet property="popUpButton" destination="m6x-l8-b3j" id="Qgy-Pt-eNP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="waP-cC-PKt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

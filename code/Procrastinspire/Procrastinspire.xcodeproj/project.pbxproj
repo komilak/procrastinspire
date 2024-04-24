@@ -15,6 +15,7 @@
 		4F11E7FC2BD86311000F76CB /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7FB2BD86311000F76CB /* NukeExtensions */; };
 		4F11E7FE2BD86311000F76CB /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7FD2BD86311000F76CB /* NukeUI */; };
 		4F11E8002BD86311000F76CB /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 4F11E7FF2BD86311000F76CB /* NukeVideo */; };
+		4F8B562F2BD8A127005FF873 /* RoutinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B562E2BD8A127005FF873 /* RoutinesViewController.swift */; };
 		4FA452532BD852EE000E3082 /* InspireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452522BD852EE000E3082 /* InspireViewController.swift */; };
 		4FA452572BD855D1000E3082 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452562BD855D1000E3082 /* PostCell.swift */; };
 		4FA452592BD859EC000E3082 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA452582BD859EC000E3082 /* Post.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F8B562E2BD8A127005FF873 /* RoutinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutinesViewController.swift; sourceTree = "<group>"; };
 		4FA452522BD852EE000E3082 /* InspireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspireViewController.swift; sourceTree = "<group>"; };
 		4FA452562BD855D1000E3082 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		4FA452582BD859EC000E3082 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				4FEFACD12BCE31FA000EB7DF /* SceneDelegate.swift */,
 				4FEFACD32BCE31FA000EB7DF /* ViewController.swift */,
 				4FEFACD52BCE31FA000EB7DF /* Main.storyboard */,
+				4F8B562E2BD8A127005FF873 /* RoutinesViewController.swift */,
 				4FA452522BD852EE000E3082 /* InspireViewController.swift */,
 				4FEFACD82BCE31FB000EB7DF /* Assets.xcassets */,
 				4FEFACDA2BCE31FB000EB7DF /* LaunchScreen.storyboard */,
@@ -180,6 +183,7 @@
 				4FEFACD02BCE31FA000EB7DF /* AppDelegate.swift in Sources */,
 				4FEFACD22BCE31FA000EB7DF /* SceneDelegate.swift in Sources */,
 				4FA452592BD859EC000E3082 /* Post.swift in Sources */,
+				4F8B562F2BD8A127005FF873 /* RoutinesViewController.swift in Sources */,
 				4FA452532BD852EE000E3082 /* InspireViewController.swift in Sources */,
 				4FA452572BD855D1000E3082 /* PostCell.swift in Sources */,
 			);

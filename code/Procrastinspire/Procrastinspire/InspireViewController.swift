@@ -78,6 +78,7 @@ class InspireViewController: UIViewController, UITableViewDataSource {
 //    }
     
     
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,9 +87,11 @@ class InspireViewController: UIViewController, UITableViewDataSource {
 
 //        setupMorningRoutineSelection()
         // Do any additional setup after loading the view.
+    
         fetchPosts()
     }
     
+
     func fetchPosts() {
             let url = URL(string: "https://api.tumblr.com/v2/blog/brooklyncollegeadmissions.tumblr.com/posts/photo?npf=true?&api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk")!
             let session = URLSession.shared.dataTask(with: url) { data, response, error in
