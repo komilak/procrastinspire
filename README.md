@@ -1,15 +1,16 @@
 # Procrastinspire
 What I have so far...
 <div>
-    <a href="https://www.loom.com/share/f406cdf36df348bb847298d480041ecb">
-      <p>Week 1 Update - Watch Video</p>
+    <a href="https://www.loom.com/share/58157a1ba1d94b03be77fc0d74fcae29">
+      <p>Week 2 Update - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/f406cdf36df348bb847298d480041ecb">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f406cdf36df348bb847298d480041ecb-with-play.gif">
+    <a href="https://www.loom.com/share/58157a1ba1d94b03be77fc0d74fcae29">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/58157a1ba1d94b03be77fc0d74fcae29-with-play.gif">
     </a>
   </div>
   
 ## Progress so far:
+Week 1:
 App has the main three screens so far, with table cells set up for the scroll view to be autofilled.
 I'm still figuring out which API I'd like to use for the images - unsplash, imgur, google images, etc. I had the TF in class help me sort out the proper ordering of tabs at the bottom.
 <img width="189" alt="Screenshot 2024-04-22 at 11 33 25 PM" src="https://github.com/komilak/procrastinspire/assets/27926984/cefcc370-c020-432d-8458-77aacd48c174">
