@@ -29,7 +29,7 @@ struct Photo: Decodable {
     enum CodingKeys: String, CodingKey {
         
         // Maps API key name to a more "swifty" version (i.e. lowerCamelCasing and no `_`)
-        //posts > reblog > trail > content
+        //posts >  trail > content > get first img src
         case originalSize = "original_size"
     }
 }

@@ -137,6 +137,18 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xV-wi-kQe">
+                                <rect key="frame" x="232" y="330" width="145" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XvZ-ml-ykB">
+                                <rect key="frame" x="232" y="409" width="145" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hC8-9r-wWH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -150,6 +162,8 @@
                     <navigationItem key="navigationItem" title="My Routines" id="SGS-Pg-fvc"/>
                     <connections>
                         <outlet property="popUpButton" destination="m6x-l8-b3j" id="Qgy-Pt-eNP"/>
+                        <outlet property="popUpButtonDay" destination="0xV-wi-kQe" id="UPd-ri-Y6e"/>
+                        <outlet property="popUpButtonNight" destination="XvZ-ml-ykB" id="HDd-XN-lXN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="waP-cC-PKt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
