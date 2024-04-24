@@ -10,6 +10,7 @@ What I have so far...
   </div>
   
 ## Progress so far:
+Week 1:
 App has the main three screens so far, with table cells set up for the scroll view to be autofilled.
 I'm still figuring out which API I'd like to use for the images - unsplash, imgur, google images, etc. I had the TF in class help me sort out the proper ordering of tabs at the bottom.
 <img width="189" alt="Screenshot 2024-04-22 at 11 33 25 PM" src="https://github.com/komilak/procrastinspire/assets/27926984/cefcc370-c020-432d-8458-77aacd48c174">
