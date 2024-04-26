@@ -65,7 +65,7 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 - [x] User is able to switch between Inspire, Routines, and Intentions
 - [x] User is able to select goal (choose from diff buttons) on Intentions tab - no api response yet
 - [x] Routine Tab shows options to select from for Morning, Day, and Evening
-- [x] User can scroll through images on Inspire tab
+- [x] User can scroll through images pulled from tumblr API on Inspire tab
 - [ ] Intention selection updates and transitions to Inspire tab
 
 
@@ -127,3 +127,7 @@ Allows you the buffer time of procrastination, with the good intentions of self 
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+  
+- Using tumblr GET endpoints for blogs and [tagged posts](https://www.tumblr.com/docs/en/api/v2#tagged--get-posts-with-tag) 
+
