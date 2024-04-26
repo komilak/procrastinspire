@@ -1,5 +1,25 @@
 # Procrastinspire
-What I have so far...
+Recent Progress:
+<div>
+    <a href="https://www.loom.com/share/82c6de7e1f23489b80d5655ffabb9986">
+      <p>Week3 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/82c6de7e1f23489b80d5655ffabb9986">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/82c6de7e1f23489b80d5655ffabb9986-with-play.gif">
+    </a>
+  </div>
+
+  
+## Captain's Log:
+Week 1:
+App has the main three screens so far, with table cells set up for the scroll view to be autofilled.
+I'm still figuring out which API I'd like to use for the images - unsplash, imgur, google images, etc. I had the TF in class help me sort out the proper ordering of tabs at the bottom.
+<img width="189" alt="Screenshot 2024-04-22 at 11 33 25 PM" src="https://github.com/komilak/procrastinspire/assets/27926984/cefcc370-c020-432d-8458-77aacd48c174">
+<img width="195" alt="Screenshot 2024-04-22 at 11 33 11 PM" src="https://github.com/komilak/procrastinspire/assets/27926984/a7c85f0b-21f8-4fa0-b32c-857cbf70237c">
+
+Constraints Are super annoying! But we're getting there...
+
+Week 2:
 <div>
     <a href="https://www.loom.com/share/58157a1ba1d94b03be77fc0d74fcae29">
       <p>Week 2 Update - Watch Video</p>
@@ -8,15 +28,8 @@ What I have so far...
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/58157a1ba1d94b03be77fc0d74fcae29-with-play.gif">
     </a>
   </div>
-  
-## Progress so far:
-Week 1:
-App has the main three screens so far, with table cells set up for the scroll view to be autofilled.
-I'm still figuring out which API I'd like to use for the images - unsplash, imgur, google images, etc. I had the TF in class help me sort out the proper ordering of tabs at the bottom.
-<img width="189" alt="Screenshot 2024-04-22 at 11 33 25 PM" src="https://github.com/komilak/procrastinspire/assets/27926984/cefcc370-c020-432d-8458-77aacd48c174">
-<img width="195" alt="Screenshot 2024-04-22 at 11 33 11 PM" src="https://github.com/komilak/procrastinspire/assets/27926984/a7c85f0b-21f8-4fa0-b32c-857cbf70237c">
 
-Constraints Are super annoying! But we're getting there...
+
 
 
 ## Table of Contents
