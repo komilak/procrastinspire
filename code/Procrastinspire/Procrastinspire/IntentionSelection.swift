@@ -7,6 +7,9 @@
 
 import Foundation
 
+struct Intention {
+  let intentionCode: IntentionCode
+}
 
 enum IntentionCode {
     case work
@@ -18,13 +21,13 @@ enum IntentionCode {
     var intentLink: String {
         switch self {
         case .work:
-            return "string link to work related posts"
+            return "https://api.tumblr.com/v2/blog/thatcupidgirl/posts/photo?&api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk"
         case .relax:
-            return "string link to relaxing posts"
+            return "https://api.tumblr.com/v2/blog/uroko/posts/photo?&api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk"
         case .learn:
-            return "Pstring link to study related posts"
+            return "https://api.tumblr.com/v2/blog/juliaxyn/posts/photo?&api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk"
         case .cook:
-            return "string link to cooking related posts"
+            return "https://api.tumblr.com/v2/blog/daily-deliciousness/posts/photo?&api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk"
         }
     }
     

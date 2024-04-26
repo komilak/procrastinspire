@@ -16,6 +16,9 @@ class IntentViewController: UIViewController {
     @IBOutlet weak var cookButton: UIButton!
     
     
+    private var intentionOptions = [Intention]() // tracks all the possible forecasts
+    private var selectedIntentionIndex = 0
+    
     @IBAction func didTapWorkButton(_ sender: UIButton) {
     }
     
